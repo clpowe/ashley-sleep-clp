@@ -1,0 +1,21 @@
+{
+  "name": "vite-svelte-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.1"
+  },
+  "dependencies": {
+    "svelte-inline-css": "^1.2.0",
+    "svelte-inline-style": "^1.0.0",
+    "vite-plugin-singlefile": "^0.10.0"
+  }
+}

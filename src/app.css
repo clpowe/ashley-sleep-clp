@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --ashley-orange: #f68c2c;
+  --ashley-black: #363534;
+  --ashley-white: #fff;
+  --ashley-essential: #f1c5b2;
+  --ashley-gruve: #b2e5f6;
+  --ashley-align: #c3d9d5;
+  --ashley-deepblue: #0a548b;
+
+  --gray-300: #a8a8a8;
+  --gray-200: #e0e0e0;
+}
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#CLP-Main {
+  max-width: 160em;
+}
+
+#CLP-Main,
+h1,
+h2,
+p,
+figure,
+blockquote,
+div,
+dl,
+dd {
+  font-family: 'Open Sans', sans-serif;
+  all: unset;
+  display: block;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+picture {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.itemContainer > div {
+  padding-inline: 1rem;
+}
